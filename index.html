@@ -1,18 +1,480 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nishant's Portfolio</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-    <h1>
-        Hii, I am Nishant Kumar.
 
-    </h1>
-    <h1>I will be modifying this soon.</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nishant_Kumar's Portfolio</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+
+    <div class="navbar-container container">
+      <input type="checkbox" name="" id="">
+      <div class="hamburger-lines">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+      </div>
+      <ul class="menu-items">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="./assets/Nishant_Kumar_Resume.pdf" download>Resume</a></li>
+
+      </ul>
+      <h1 class="logo"><span>N</span>ISHANT</h1>
+    </div>
+  </nav>
+  <div></div>
+  <div id="home">
+    <div class="header_text">
+
+      <h1>Hii, I am <span>Nishant</span> Kumar </h1>
+      <p>Java Full-Stack Developer</p>
+    </div>
+
+  </div>
+
+  <section id="about" class="text-gray-600 body-font aboutme">
+
+    <h1 id="heading1"> ABOUT ME</h1>
+    <br><br>
+    <div class="container mx-auto flex px-5 py-24  md:flex-row flex-col items-center">
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <img class="object-cover object-center rounded" alt="hero" src="./assets/pic_about.png">
+      </div>
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Nishant Kumar
+          <br class="hidden lg:inline-block">
+        </h1>
+        <p class="mb-8 leading-relaxed"> Enthusiastic and driven, aspiring full-stack web developer with specifications
+          in java. I have a deep passion for software development, data structure and algorithms, and problem-solving.
+          Through 1200+ hours of practice and many personal projects, I honed my skills as a programmer, developing a
+          certain versatility in using technologies and coding languages. As I am a self-learner, I can easily adapt to
+          new things and am always ready to take on challenges.</p>
+
+        <div class="flex justify-center but">
+          <button
+            class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            <a href="./assets/Nishant_Kumar_Resume.pdf" target="_blank" class="cta-btn cta-btn--resume">View
+              Resume</a></button>
+          <button
+            class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"><a
+              href="./assets/Nishant_Kumar_Resume.pdf" download class="cta-btn cta-btn--resume">Download Resume</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <br><br>
+  </section>
+
+
+  <br><br><br><br>
+  <h1 id="heading"> TECH-STACK </h1>
+  <div id="tachstack">
+
+    <div class="stack">
+      <img src="./assets/java.png" alt="java">
+      <h3>JAVA</h3>
+    </div>
+    <div class="stack">
+      <img src="./assets/spring.png" alt="java">
+      <h3> Spring Boot</h3>
+    </div>
+    <div class="stack">
+      <img src="./assets/hibernate.png" alt="java">
+      <h3>HIBERNATE</h3>
+    </div>
+    <div class="stack">
+      <img src="./assets/mysql.png" alt="java">
+      <h3>SQL</h3>
+    </div>
+    <div class="stack">
+      <img src="./assets/jdbc.png" alt="java">
+      <h3> JDBC</h3>
+    </div>
+    <div class="stack">
+      <img src="./assets/api.png" alt="">
+      <h3>API</h3>
+    </div>
+    <div class="stack">
+      <img src="./assets/javascript.png" alt="java">
+      <h3> JavaScript</h3>
+    </div>
+    <div class="stack">
+      <img src="./assets/html.png" alt="java">
+      <h3> HTML</h3>
+    </div>
+    <div class="stack">
+      <img src="./assets/css.png" alt="java">
+      <h3> CSS</h3>
+    </div>
+    <div class="stack">
+      <img src="./assets/git.png" alt="java">
+      <h3> GIT</h3>
+    </div>
+
+  </div>
+
+  <p id="skill"></p>
+  <br><br><br><br><br>
+  <h1 id="heading"> SKILLS </h1>
+
+  <div id="skills">
+
+
+    <div class="stack">
+      <img src="./assets/dsa.png" alt="teamwork">
+      <h3>DSA</h3>
+    </div>
+    <div class="stack">
+      <img src="./assets/background.png" alt="critical">
+      <h3>
+        Front End
+      </h3>
+    </div>
+    <div class="stack">
+      <img src="./assets/backend.png" alt="listning">
+      <h3>Back End</h3>
+    </div>
+    <div class="stack">
+      <img src="./assets/adabtability.webp" alt="time">
+      <h3>
+        ADAPTABILITY
+      </h3>
+    </div>
+    <div class="stack">
+      <img src="./assets/teammang.png" alt="teammang">
+      <h3>
+        Team Management
+      </h3>
+    </div>
+    <div class="stack">
+      <img src="./assets/remote.jpg" alt="teammang">
+      <h3>
+        Remote Work
+      </h3>
+    </div>
+
+
+  </div>
+  <br><br>
+  <br><br><br>
+
+  <br>
+  <div id="projects">
+    <br><br><br>
+    <h1 id="heading"> PROJECTS </h1>
+
+
+
+
+    <br><br>
+
+
+    <section class="text-gray-600 body-font">
+      <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img class="object-cover object-center rounded" alt="hero" src="./assets/Shine.png">
+        </div>
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Shine.com
+            <!-- <br class="hidden lg:inline-block"><p style="font-size: 24px;">(Clone)</p> -->
+
+          </h1>
+          <p class="mb-8 leading-relaxed">
+
+            <strong>Type: </strong> collaborative project   <br>
+            <strong>Responsibilities:</strong> Home Page <br>
+            <strong>Tech Stack:</strong> JavaScript | HTML | CSS | LocalStorage <br>
+            <strong>Description:</strong>Shine.com is India's most innovative and
+            fastest growing Online Job Portal. Launched
+            in 2008, Shine.com has crossed the 3.86
+            crore candidate. Shine.com is a collaborative
+            project created in 5 days. 
+            
+
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+              <a href="https://lustrous-kangaroo-db4a72.netlify.app" target="_blank">Live
+              </a>
+            </button>
+            <button
+              class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+              <a href="https://github.com/kumarnishantgunajn5803/easy-bell-6862" target="_blank">Code</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br><br>
+
+    <section class="text-gray-600 body-font">
+      <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img class="object-cover object-center rounded" alt="hero" src="./assets/Dot&Key.png">
+        </div>
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Dot&Key
+            <!-- <br class="hidden lg:inline-block"><p style="font-size: 24px;">(Clone)</p> -->
+
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            <strong>Type: </strong> collaborative project<br>
+            <strong>Responsibilities:</strong> Products Page |
+            Bodycare Page | Haircare Page<br>
+            <strong>Tech Stack:</strong>  HTML | CSS | JavaScript | JQUERY<br>
+            <strong>Description:</strong> •Dot & Key is an Indian Skincare brand that
+            was launched by Kolkata-based Suyash Saraf
+            and Anisha Saraf. Dot & Key is a collaborative
+            project created in 5 days.
+            
+
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+              <a href="https://remarkable-shortbread-6f9bc7.netlify.app" target="_blank"
+                rel="noopener noreferrer">Live</a>
+            </button>
+            <button
+              class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+              <a href="https://github.com/kumarnishantgunajn5803/Unit-2-Project-repo" target="_blank">Code</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <br><br>
+
+
+
+    <section class="text-gray-600 body-font">
+      <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <!-- <img class="object-cover object-center rounded" alt="hero" src="./assets/calculater.jpg"> -->
+        </div>
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <!-- <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Calculater -->
+
+          </h1>
+          <p class="mb-8 leading-relaxed">
+
+
+            <!-- <strong>Type:</strong> Solo Project <br>
+            <strong>Tech Stack: </strong> HTML | CSS | JavaScript
+            <br>
+            <strong>Discription: </strong> It was a solo project in which i have created the Calculater web application.
+            Using the HTML, JavaScript, and CSS.
+            Completed with in a day. -->
+
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+              <a href=" " target="_blank">Live
+              </a>
+            </button>
+            <button
+              class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+              <a href=" " target="_blank">Code</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <br><br>
+
+
+
+
+    <section class="text-gray-600 body-font">
+      <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <!-- <img class="object-cover object-center rounded" alt="hero" src=" "> -->
+        </div>
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"> 
+
+          </h1>
+          <p class="mb-8 leading-relaxed">
+
+            <!-- <strong>Type: </strong> Solo project <br>
+            <strong>Tech Stack:</strong> JavaScript | HTML | CSS <br>
+            <strong>Description:</strong> Student Management System is a mini project created by me. We can apply for
+            admission, admin can accept or reject new request based on data. All rejected and accepted applications will
+            be store as well. -->
+
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+              <a href=" " target="_blank" rel="noopener noreferrer">Live</a>
+            </button>
+            <button
+              class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+              <a href=" " target="_blank">Code</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <div>
+      <section id="stat">
+        <br><br> <br>
+        <h1 id="heading"> STATISTICS </h1>
+        <br><br><br><br><br>
+        <div id="statics">
+
+
+
+          <div class="stack">
+            <!-- <img src="./assets/dsa.png" alt="teamwork"> -->
+            <h3>1200+</h3>
+            <h5>Hours of Coding</h5>
+          </div>
+          <div class="stack">
+            <!-- <img src="./assets/background.png" alt="critical"> -->
+            <h3>
+              300+
+            </h3>
+            <h5>DSA problems</h5>
+          </div>
+          <div class="stack">
+            <!-- <img src="./assets/backend.png" alt="listning"> -->
+            <h3>2 Major</h3>
+            <h5>Projects</h5>
+          </div>
+          <div class="stack">
+            <!-- <img src="./assets/fastlearn.jpg" alt="fastlearn"> -->
+            <h3>6 Months+</h3>
+            <h5>Power skills</h5>
+          </div>
+          <div class="stack">
+            <!-- <img src="./assets/dsa.png" alt="teamwork"> -->
+            <h3>590+</h3>
+            <h5>Git Contribution</h5>
+          </div>
+
+        </div>
+        <br><br><br>
+      </section>
+
+
+      <section id="github">
+
+        <h1 id="heading"> GITHUB </h1>
+        <br><br><br><br><br>
+
+        <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img
+              src="https://github-profile-trophy.vercel.app/?username=kumarnishantgunajn5803"
+              alt="kumarnishantgunajn5803" /></a> </p>
+
+
+
+
+        <p align="center"><img align="center"
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=kumarnishantgunajn5803&show_icons=true&locale=en&layout=compact"
+            alt="kumarnishantgunajn5803" /></p>
+
+        <p align="center">&nbsp;<img align="center"
+            src="https://github-readme-stats.vercel.app/api?username=kumarnishantgunajn5803&show_icons=true&locale=en"
+            alt="kumarnishantgunajn5803" /></p>
+
+        <p align="center"><img align="center"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=kumarnishantgunajn5803&"
+            alt="kumarnishantgunajn5803" /></p>
+
+        <div class="calendar">
+
+          Loading the data just for you.
+        </div>
+        <br><br>
+      </section>
+
+
+
+      <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+      </script>
+
+      <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+
+      <script>
+
+        GitHubCalendar(".calendar", "kumarnishantgunajn5803", { responsive: true });
+
+      </script>
+
+
+    </div>
+
+    <section id="contact">
+      <br><br><br>
+      <h1 id="heading1"> CONTACT ME </h1>
+      <br><br><br><br><br>
+      <p class="details"><a href="mailto:nkgunjan26102003@gmail.com" target="_blank">nkgunjan26102003@gmail.com</a></p>
+      <p class="details"> <a href="https://wa.me/+917781053379" target="_blank">WhatsaApp</a> </p>
+      <p class="details"> <a href="tel:+917781053379" target="_blank">7781053379</a> </p>
+
+      <div id="social_Links">
+        <div>
+          <a href="https://github.com/kumarnishantgunajn5803" target="_blank" rel="noopener noreferrer" aria-label="twitter">
+            <img src="./assets/github.png" alt="github">
+          </a>
+        </div>
+
+        <div>
+          <a href="https://www.hackerrank.com/nkgunjan26102003" target="_blank" rel="noopener noreferrer"
+            aria-label="codepen">
+            <img src="./assets/hackerrank.png" alt="hackerrank">
+          </a>
+        </div>
+
+        <div>
+          <a href="https://www.linkedin.com/in/nishant-kumar-34a193235/" target="_blank" rel="noopener noreferrer"
+            aria-label="linkedin">
+            <img src="./assets/linkedin.png" alt="linkedin">
+          </a>
+        </div>
+
+        <div>
+          <a href="mailto:nkgunjan26102003@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="github">
+            <img src="./assets/email.png" alt="">
+          </a>
+        </div>
+      </div>
+
+      <h5>Desined and Created by : Nishant Kumar</h5>
+       
+    </section>
+
+
+
+
 </body>
-<script src="./index.js"></script>
+
 </html>

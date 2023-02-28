@@ -219,12 +219,12 @@
     padding-top: 200px;
 	background-color: black;
 	/* border: 2px solid red; */
-	background-image: url(/assets/background_pic.png);
+	background-image: url(https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif);
 	 
-	background-position: right;
+	/* background-position: right; */
 	background-repeat: no-repeat;
 	background-position: right  ;
-		  background-position-x:110%;
+		  background-position-x:90%;
 		  background-position-y: 55%;
 		 
 }
@@ -392,6 +392,7 @@
 
   #github{
     background-color:black;
+     
     padding-top: 40px;
     padding-bottom: 40px;
   }
